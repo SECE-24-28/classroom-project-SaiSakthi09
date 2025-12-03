@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Online study login page">
+    <title>Online Study Login</title>
+
+    <style>
+        body {
+            background-color: lightblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial;
+        }
+
+        .box {
+            background-color: white;
+            width: 50vh;
+            padding: 25px;
+            border: 2px solid black;
+            border-radius: 20px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 8px;
+            margin-bottom: 15px;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            background-color: black;
+            color: white;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        nav {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+        }
+
+        nav a {
+            margin-left: 15px;
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <a href="#login">Login</a>
+    <a href="#signin">Sign-in</a>
+</nav>
+
+<div class="box">
+    <h2>Login</h2>
+
+    <label>Email</label>
+    <input type="email">
+
+    <label>Password</label>
+    <input type="password">
+
+    <button>Login</button>
+</div>
+
+</body>
+</html>
