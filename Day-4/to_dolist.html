@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box{
+        flex:warp;
+        text-align:center;
+        top:50px;
+        left:50px;
+        border-color: black;
+    }
+    .list{
+        text-align:left;
+        margin-left:450px;
+    }
+</style>
+
+<body style="background-color: rgb(24, 208, 222);">
+    <div class="box">
+    <h1>To do List</h1>
+    <input type="text" id="value" placeholder="Enter the text" style="height:30px" >
+    <Button onclick="demo()" style="width:50px; height:30px">Add</Button>
+    <ul id="list"></ul>
+    </div>
+    <script>
+        function demo(){
+            
+            let val=document.getElementById("value").value;
+            if(val==""){
+                alert("Input can't be Empty");
+                return;
+            }
+            let li=document.createElement("li");
+            li.textContent=val;
+            list.append(li);
+            value.value="";
+            
+        }
+    </script>
+</body>
+</html>

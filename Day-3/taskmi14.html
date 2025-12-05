@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Image Example</title>
+        <script>
+            function nextImage(){
+                let img=document.getElementById("im");
+                img.src="ss2.jpg";
+            }
+            function prevImage(){
+                let img=document.getElementById("im");
+                img.src="ss3.jpg";
+            }
+            </script>
+    </head>
+    <body>
+        <h2>Image Change on Button Click</h2>
+        <img id="im" src="C:\Users\tsais\OneDrive\Desktop\ss1.jpg" alt="Portrait" width="300" height="400">
+        <br><br>
+        <button onclick="prevImage()">PREVIOUS</button>
+        <button onclick="nextImage()">NEXT</button>
+</html>
