@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+ol {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+ol li a {
+  text-decoration: none;
+  color: blue;
+}
+
+input, textarea {
+  width: 300px;
+  margin: 10px 0;
+  padding: 8px;
+}
+
+button {
+  padding: 10px 20px;
+}

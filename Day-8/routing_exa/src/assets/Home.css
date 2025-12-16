@@ -1,0 +1,30 @@
+/* Home page styles */
+.home {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 1rem;
+}
+.hero {
+  max-width: 800px;
+  text-align: center;
+  background: rgba(255,255,255,0.02);
+  padding: 2rem;
+  border-radius: 10px;
+}
+.hero-title {
+  margin: 0 0 0.5rem 0;
+  font-size: 2rem;
+  color: var(--title-color, #102a43);
+}
+.hero-sub {
+  margin: 0 0 1.25rem 0;
+  color: #627d98;
+}
+.hero-actions {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+}
+.btn.secondary {
+  background: #6b7280;
+}

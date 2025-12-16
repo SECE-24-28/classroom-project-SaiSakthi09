@@ -1,0 +1,27 @@
+[
+  {
+    "sid": 1,
+    "sname": "Alice",
+    "smark": 85
+  },
+  {
+    "sid": 2,
+    "sname": "Bob",
+    "smark": 90
+  },
+  {
+    "sid": 3,
+    "sname": "Charlie",
+    "smark": 90
+  },
+  {
+    "sid": 4,
+    "sname": "David",
+    "smark": 85
+  },
+  {
+    "sid": 5,
+    "sname": "Eve",
+    "smark": 95
+  }
+]

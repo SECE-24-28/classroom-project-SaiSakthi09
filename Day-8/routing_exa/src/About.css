@@ -1,0 +1,14 @@
+/* About page styles */
+.about {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+.about-card {
+  max-width: 760px;
+  background: #fff;
+  padding: 1.25rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(16, 42, 67, 0.06);
+  color: #102a43;
+}

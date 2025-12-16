@@ -1,0 +1,20 @@
+/* PostPage layout styles */
+.postpage {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 1rem;
+  padding: 1rem;
+}
+.postpage-list {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #e6e9ef;
+}
+.postpage-content {
+  background: transparent;
+}
+
+@media (max-width: 720px) {
+  .postpage { grid-template-columns: 1fr }
+}
